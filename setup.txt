@@ -1,0 +1,9 @@
+1. Download deepspeech repo
+2. python util/taskcluster.py --target /home/mrbc/deepspech/<path to where binaries will be stored>
+3. Add above path to LIBRARY_PATH and LD_LIBRARY_PATH
+4. Download and unzip pretrained model
+5. Make sure libclang-dev is installed
+6. To run the example, cargo run <path to trained models> <path to .wav file>
+
+Notes:
+    - Input must be single channel, to convert: sox more_perfect_union.wav leftchannel.wav remix 1

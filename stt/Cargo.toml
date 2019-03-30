@@ -1,0 +1,9 @@
+[package]
+name = "stt"
+version = "0.1.0"
+authors = ["malcolm <malcolmbalch@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+deepspeech = "0.2.0"
+audrey = "0.2.0"
